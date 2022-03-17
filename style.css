@@ -1,4 +1,128 @@
 body {
   margin: 0;
-  padding: 0;
+}
+
+/************/
+/** HEADER **/
+/************/
+
+header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 200px;
+}
+
+header nav {
+  display: flex;
+  align-items: center;
+}
+
+header nav p {
+  margin-left: 10px;
+  margin-right: 10px;
+}
+
+header nav p a {
+  color: #000;
+  text-decoration: none;
+}
+
+
+/**********/
+/** HERO **/
+/**********/
+
+#hero {
+  display: flex;
+  padding: 0 200px;
+}
+
+/* #hero .col-left {
+
+} */
+
+
+/*****************/
+/** RANDOM INFO **/
+/*****************/
+
+#random-info {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 100px;
+  padding: 0 200px;
+}
+
+#random-info h2 {
+  flex-basis: 100%;
+  text-align: center;
+}
+
+#random-info .info-card {
+  flex: 1;
+}
+
+#random-info .info-card div {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+  border: 1px solid blue;
+  border-radius: 5px;
+}
+
+#random-info .info-card p {
+  text-align: center;
+}
+
+
+/********************/
+/** FEATURED QUOTE **/
+/********************/
+
+#featured-quote {
+  margin: 100px 0;
+  padding: 50px 300px;
+  background: slategray;
+}
+
+#featured-quote .quote-author {
+  text-align: right;
+}
+
+
+/********************/
+/** CALL TO ACTION **/
+/********************/
+
+#call-to-action {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 100px 200px;
+  padding: 15px 0;
+  background: aqua;
+  border-radius: 10px;
+}
+
+/* #call-to-action .col-left {
+
+}
+
+#call-to-action .col-right {
+
+} */
+
+
+/************/
+/** FOOTER **/
+/************/
+
+footer {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  padding: 15px 0;
+  text-align: center;
+  background: slateblue;
 }
